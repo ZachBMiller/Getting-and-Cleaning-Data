@@ -42,3 +42,5 @@ Cleans up the variable names by 1) replacing "t" with "time" any time "t" is the
 ## create new data set with the average of each variable for each activity and each subject
 This creates a dataset such as described in the header by loading the dplyr library, grouping the data by subject and activity (in that order), then finding the mean of each variable of the grouped observations, then saving this to a new dataframe
 
+## print out averages dataset
+Prints out averages dataset
