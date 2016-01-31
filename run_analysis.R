@@ -63,3 +63,6 @@ colnames(selecteddata) <- gsub("\\(\\)", "", names(selecteddata))
 library(dplyr)
 averages1 <- group_by(selecteddata, subject, activity)
 averages <- summarize_each(averages1, funs(mean))
+
+## print out averages dataset
+averages
